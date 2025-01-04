@@ -63,6 +63,7 @@ export type Image = {
 export type Menu = {
   title: string;
   path: string;
+  icon: string;
 };
 
 export type Money = {
@@ -73,6 +74,7 @@ export type Money = {
 export type Page = {
   id: string;
   title: string;
+  icon: string;
   handle: string;
   body: string;
   bodySummary: string;
@@ -121,4 +123,24 @@ export type ProductVariant = {
 export type SEO = {
   title: string;
   description: string;
+};
+
+export type Post = {
+  id: string;
+  title: string;
+  excerpt: string;
+  contentText: string;
+  publishedAt: string;
+  updatedAt: string;
+  url: string;
+  slug: string;
+  categories: string[];
+  commenting: boolean;
+  minutesToRead: string;
+  heroImage: Image;
+  tags: string[];
+  seoData: SEO;
+  content: string | null;
+  richContent: string | null;
+  contactId: string | null;
 };

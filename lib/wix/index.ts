@@ -1,11 +1,13 @@
 import { items } from '@wix/data';
 import { currentCart, recommendations } from '@wix/ecom';
+
+import { posts } from "@wix/blog";
 import { redirects } from '@wix/redirects';
 import { createClient, media, OAuthStrategy } from '@wix/sdk';
 import { collections, products } from '@wix/stores';
 import { SortKey, WIX_SESSION_COOKIE } from 'lib/constants';
 import { cookies } from 'next/headers';
-import { Cart, Collection, Menu, Page, Product, ProductVariant } from './types';
+import { Cart, Collection, Menu, Page, Post, Product, ProductVariant } from './types';
 
 const cartesian = <T>(data: T[][]) =>
   data.reduce((a, b) => a.flatMap((d) => b.map((e) => [...d, e])), [[]] as T[][]);
@@ -174,6 +176,23 @@ const reshapeProduct = (item: products.Product) => {
     },
     updatedAt: item.lastUpdated?.toString()!
   } as Product;
+};
+
+const reshapePost = (post: posts.Post ) => {
+  return {
+    id: post._id!,
+    title: post.title!,
+    excerpt: post.excerpt!,
+    contentText: post.contentText!,
+    publishedAt: post.firstPublishedDate!.toISOString(),
+    updatedAt: post.lastPublishedDate!.toISOString(),
+    url: post.url,
+    slug: post.slug,
+    categories: post.categoryIds,
+    commenting: post.commentingEnabled,
+    minutesToRead: post.minutesToRead!.toString(),
+    // heroImage: post.
+  } as Post;
 };
 
 export async function addToCart(
@@ -347,9 +366,10 @@ export async function getMenu(handle: string): Promise<Menu[]> {
   const menu = menus[0];
 
   return (
-    menu?.data!.pages.map((page: { title: string; slug: string }) => ({
+    menu?.data!.pages.map((page: { title: string; slug: string; icon: string }) => ({
       title: page.title,
-      path: '/' + page.slug
+      path: '/' + page.slug,
+      icon: page.icon
     })) || []
   );
 }
@@ -382,6 +402,7 @@ export async function getPage(handle: string): Promise<Page | undefined> {
   return {
     id: page._id!,
     title: page.data!.title,
+    icon: page.data!.icon,
     handle: '/' + page.data!.slug,
     body: page.data!.body,
     bodySummary: '',
@@ -415,6 +436,7 @@ export async function getPages(): Promise<Page[]> {
   return pages.map((item) => ({
     id: item._id!,
     title: item.data!.title,
+    icon: item.data!.icon,
     handle: item.data!.slug,
     body: item.data!.body,
     bodySummary: '',
@@ -531,4 +553,10 @@ export async function createCheckoutUrl(postFlowUrl: string) {
   });
 
   return redirectSession?.fullUrl!;
+}
+
+export async function getPosts() {
+  const { queryPosts } = (await getWixClient()).use(posts);
+  const { items } = await queryPosts().find();
+  console.log(items[0]?.heroImage);
 }
