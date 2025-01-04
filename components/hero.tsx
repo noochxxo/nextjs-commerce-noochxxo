@@ -1,6 +1,6 @@
 // import Button from "@/components/ui";
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 
 type Props = {}
 
@@ -26,9 +26,9 @@ const hero = (props: Props) => {
               Discover the perfect pair for every occasion.
             </p>
             <div className="mt-8">
-              <Button size="lg" asChild>
+              {/* <Button size="lg" asChild>
                 <Link href="/categories">Shop Now</Link>
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>
