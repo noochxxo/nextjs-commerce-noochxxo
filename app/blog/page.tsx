@@ -18,7 +18,7 @@ const page = async  (props: Props) => {
       <h1 className="text-3xl font-bold text-foreground mb-8">Blog</h1>
       <div className="grid gap-8 md:grid-cols-2">
         <Suspense fallback={<div>Loading...</div>}>
-        {posts.map((post) => {
+        {posts.map((post: any) => {
           const myImage = getImageUrl(post?.media?.wixMedia?.image || '') 
           return (
           <Link href={`/blog/${post.slug}`} key={post.slug} className="block">
