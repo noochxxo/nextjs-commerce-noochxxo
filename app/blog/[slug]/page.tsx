@@ -4,7 +4,7 @@
 // import { MDXRemote } from 'next-mdx-remote/rsc'
 // import { MDXComponents } from 'mdx/types'
 
-import { getPost } from "@/lib/wix";
+import { getPost } from "lib/wix";
 
 
 type Params = Promise<{ slug: string }> 

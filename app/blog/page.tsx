@@ -1,5 +1,5 @@
-import { getPosts } from "@/lib/wix";
 import { media } from "@wix/sdk";
+import { getPosts } from "lib/wix";
 import Image from "next/image";
 import Link from "next/link";
 import { Suspense } from "react";
