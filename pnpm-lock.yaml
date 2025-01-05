@@ -18,6 +18,9 @@ importers:
       '@heroicons/react':
         specifier: ^2.1.5
         version: 2.2.0(react@19.0.0-rc-cd22717c-20241013)
+      '@wix/blog':
+        specifier: ^1.0.337
+        version: 1.0.337
       '@wix/data':
         specifier: ^1.0.158
         version: 1.0.183
@@ -393,6 +396,27 @@ packages:
 
   '@types/node@20.14.12':
     resolution: {integrity: sha512-r7wNXakLeSsGT0H1AU863vS2wa5wBOK4bWMjZz2wj+8nBx+m5PeIn0k8AloSLpRuiwdRQZwarZqHE4FNArPuJQ==}
+
+  '@wix/blog@1.0.337':
+    resolution: {integrity: sha512-2mnakkWbRcThFPLaVZE5yWBpgMsNCD/LiEQNJrD7q1jLkC5Wd5igOYWg1D/vGgtB6Orqki5jeZnqs6NNjCyflw==}
+
+  '@wix/blog_blog-cache@1.0.11':
+    resolution: {integrity: sha512-CQ6fiBW1GtMDmDfwI5f2QPZIbAAOLV+eyGeZ4W7DixLudIkj3ZYI8zrIysPiokKIaYx603HaRtrfZ3biTvrsYQ==}
+
+  '@wix/blog_blog-importer@1.0.23':
+    resolution: {integrity: sha512-qEpmjaMBz51RNiXQ7XR7+ZindljTh6/dGEbv9E4aa+O3Ve0L3rMDckaHVpOAEIONKywpIwpwT9liN9/+2d8sbA==}
+
+  '@wix/blog_categories@1.0.56':
+    resolution: {integrity: sha512-+n1218K36lzYzxbhCr7+UWo0sRtjhfEZraAfGJ+r5USyX+6ZpO6RyCi/tBfFqvNXeaz4oD9BNop4Rgnrud0jkQ==}
+
+  '@wix/blog_draft-posts@1.0.57':
+    resolution: {integrity: sha512-goegbw7yPN2zJqiDtP6ZW4mYCShodBFk9RutdiJ0sqlMDnlYArKRbc5dxJANsipyFqaX4ilRryggzAwXbZMLBg==}
+
+  '@wix/blog_posts@1.0.65':
+    resolution: {integrity: sha512-MuXJoOJO6vEtkIFjd3qQjXHjsELQYHXjzRAFYwZNue+HvwxlYjhzL4XCKKwWqCtY7xRRvqbRskN79X7tySEzWA==}
+
+  '@wix/blog_tags@1.0.62':
+    resolution: {integrity: sha512-X+4RkPW28wTapvJv4oJUlELcfkAwQURNGjSWPLe8k1lmOCXMspK5fBT5DfOr2G12+EysiwFJRjEgpFdEmd4Kwg==}
 
   '@wix/data@1.0.183':
     resolution: {integrity: sha512-dfLatheXVkfxfelKHylpz07pgLXg4fslP0YPxP9zn77tJcsWKdvgzPDphOE8f5DQr9WASOsmWc4e3oWALRniuQ==}
@@ -1532,6 +1556,45 @@ snapshots:
   '@types/node@20.14.12':
     dependencies:
       undici-types: 5.26.5
+
+  '@wix/blog@1.0.337':
+    dependencies:
+      '@wix/blog_blog-cache': 1.0.11
+      '@wix/blog_blog-importer': 1.0.23
+      '@wix/blog_categories': 1.0.56
+      '@wix/blog_draft-posts': 1.0.57
+      '@wix/blog_posts': 1.0.65
+      '@wix/blog_tags': 1.0.62
+
+  '@wix/blog_blog-cache@1.0.11':
+    dependencies:
+      '@wix/sdk-runtime': 0.3.28
+      '@wix/sdk-types': 1.12.8
+
+  '@wix/blog_blog-importer@1.0.23':
+    dependencies:
+      '@wix/sdk-runtime': 0.3.28
+      '@wix/sdk-types': 1.12.8
+
+  '@wix/blog_categories@1.0.56':
+    dependencies:
+      '@wix/sdk-runtime': 0.3.28
+      '@wix/sdk-types': 1.12.8
+
+  '@wix/blog_draft-posts@1.0.57':
+    dependencies:
+      '@wix/sdk-runtime': 0.3.28
+      '@wix/sdk-types': 1.12.8
+
+  '@wix/blog_posts@1.0.65':
+    dependencies:
+      '@wix/sdk-runtime': 0.3.28
+      '@wix/sdk-types': 1.12.8
+
+  '@wix/blog_tags@1.0.62':
+    dependencies:
+      '@wix/sdk-runtime': 0.3.28
+      '@wix/sdk-types': 1.12.8
 
   '@wix/data@1.0.183':
     dependencies:

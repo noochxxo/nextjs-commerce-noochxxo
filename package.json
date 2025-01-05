@@ -15,6 +15,7 @@
   "dependencies": {
     "@headlessui/react": "^2.1.2",
     "@heroicons/react": "^2.1.5",
+    "@wix/blog": "^1.0.337",
     "@wix/data": "^1.0.158",
     "@wix/ecom": "^1.0.768",
     "@wix/redirects": "^1.0.58",
