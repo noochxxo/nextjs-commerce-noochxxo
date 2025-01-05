@@ -25,8 +25,8 @@ importers:
         specifier: ^1.0.183
         version: 1.0.183
       '@wix/ecom':
-        specifier: ^1.0.880
-        version: 1.0.880
+        specifier: ^1.0.881
+        version: 1.0.881
       '@wix/redirects':
         specifier: ^1.0.70
         version: 1.0.70
@@ -34,8 +34,8 @@ importers:
         specifier: ^1.15.7
         version: 1.15.7
       '@wix/stores':
-        specifier: ^1.0.333
-        version: 1.0.333
+        specifier: ^1.0.335
+        version: 1.0.335
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -521,134 +521,134 @@ packages:
   '@wix/data_items@1.0.63':
     resolution: {integrity: sha512-8axO1npsvlsHeERrjLsf5OmA3EBYizfqdJv0rbd2M2CZW15/RZZnkqzBTBXi/XrgMCPzkOMhJ5x6OlKTUqitog==}
 
-  '@wix/ecom@1.0.880':
-    resolution: {integrity: sha512-+G+6NXx5aAXbWVKMMIafP9LxfVoFDiqSs2Wvh7biYCkii+2me/5Uf6H53++V2H1SC0KuuyIjhutfhiBCYPUZCg==}
+  '@wix/ecom@1.0.881':
+    resolution: {integrity: sha512-kQXCdKM7fOpqlwP9RMwDAWQp+ImntdCLplJ+U7pUmCSAfvWHI5EIy5P78ZC5/mcO7+btGJO+j/Km5awgfMqEnQ==}
 
-  '@wix/ecom_abandoned-checkouts@1.0.66':
-    resolution: {integrity: sha512-3j067CTlDrsLXzy/t0pw4q6TpIo3ujOGeFBxnoKM7rRLaAEKTgo21fMxDH9DBmSWm3ZTOl0RRLuRfLGXkQbAyA==}
+  '@wix/ecom_abandoned-checkouts@1.0.67':
+    resolution: {integrity: sha512-p8JUX2i5H0SiycSMGQwqBAjqRdBT14Jn+rFtJflh1HOPULRCaWG3IGkRSEN88hXJqZ56KNmyZ5TWUs3y5qDiFg==}
 
-  '@wix/ecom_additional-fees@1.0.47':
-    resolution: {integrity: sha512-p7wgWZ2nW2gqts2GDEsRUbyJEP7pGAsQCR7Dwu63JxAJJMNYjWeHfphMZIY/r67BeHrhg+iX8+MWfaRAluEZBg==}
+  '@wix/ecom_additional-fees@1.0.48':
+    resolution: {integrity: sha512-pD+DUb1MQrecivjhJXfSDtgr3q9s3rndteZ8xShPqbhS+QaHF6QvvPKgrT62n3MlCrMfGnNAHzZJJlBVzvOopg==}
 
-  '@wix/ecom_back-in-stock-notifications@1.0.72':
-    resolution: {integrity: sha512-5FvSf5ovFA/z1aFkoA1yJRtWlzrTh+TwsFvpPFD3HVSAGrfPSggx1sV/EWYBGKhq0jasXCC00tHuuirwrE3x1g==}
+  '@wix/ecom_back-in-stock-notifications@1.0.73':
+    resolution: {integrity: sha512-OwLOknacANQucH05D2MaHYb0nPJ2SrH0d0gNUSKkiarR/Y9XgdIMDggGg/pHmdyrMExZeM2ysTiwH5NjkWTFWA==}
 
-  '@wix/ecom_back-in-stock-settings@1.0.54':
-    resolution: {integrity: sha512-AgKmlik/zAP/tgmXozxdpI8sQp1cQiCvHQOQ3wo9Wnj3amjSBYKq3/GDfT4qtupMNwjy3lWNlwbe5ddx9fHUgA==}
+  '@wix/ecom_back-in-stock-settings@1.0.55':
+    resolution: {integrity: sha512-UAUT1lv8txWeZWTu/dInFFV1TA2xuRELfWHaa4xpimfrGw6iv2KqymMeRcCmup5HTe/9XKBsefbFkNu7aIlZHw==}
 
-  '@wix/ecom_cart@1.0.123':
-    resolution: {integrity: sha512-X6R3H5uRJibRmNhaV8qWX+ZHfPcdZG8inFS7f5O16ooFDREO5yUHn5kaIaNv3YkWM74YAvcsl/doUD5YVweRzg==}
+  '@wix/ecom_cart@1.0.124':
+    resolution: {integrity: sha512-xOOhMLoGvKTYawf3H62QPX102h2F77DqlIbbe+sGNwMafhQCOskOZZAFBLCKFvXJpxS61OaYtGlV/g+KK/V52A==}
 
-  '@wix/ecom_catalog@1.0.10':
-    resolution: {integrity: sha512-voZr7Ncd+Kvfh54lKU+1m+COByYgabyTaDdV39Ua1gb5uFXLURvQWqbDHephtciNpK4NEPi7IVJd7Lk/Wn0gHQ==}
+  '@wix/ecom_catalog@1.0.11':
+    resolution: {integrity: sha512-vsiEVrGre6ISKEabvPEsdKfNuLLJBfG5HyrQTDAvfpjx6a24asIySANKOyBImjR2ZFCdlpL5rGsbtY35EWMNAw==}
 
-  '@wix/ecom_checkout-content@1.0.25':
-    resolution: {integrity: sha512-Cs1GzMeHqPX1k5IeSeFeDAy0AhNLnr2aiWW/rHDnkDf4mMmLJQlxEfJxFPcpdzkC4DSim8kYny4fix0vFl0mog==}
+  '@wix/ecom_checkout-content@1.0.26':
+    resolution: {integrity: sha512-+84tin98jE+ZqOX5Ie+HW3w9RBlFUvGUM8XRbaJ7+KRnrIrOFVoQlg+QMZrZL7DbPaa6gF/ig9UnyzKo4VE1OQ==}
 
-  '@wix/ecom_checkout-settings@1.0.71':
-    resolution: {integrity: sha512-LPDa90FOf3BChnYh1a+E6a231UvwW4oYdikNm3jVYpVNmstqgdHEAuS5YrhB09oLoWKKQXnttGlJXs306e6Q8Q==}
+  '@wix/ecom_checkout-settings@1.0.72':
+    resolution: {integrity: sha512-HUBrtWCPwfhsjy2lva1f9vPiq+gDFk1MUdYN9QP4FdIGDw7ZapXYnO3cBQKO0vESoD6t7X/7HqyIufOe09bTaQ==}
 
-  '@wix/ecom_checkout-templates@1.0.125':
-    resolution: {integrity: sha512-IvYsQyTUFoR2KTZzM9vYNr80fxwwNXO5faZ41kmyb2i2Evcoa+LGhT9toIHNWmK91jCGIYahVesuacwKUfHoPg==}
+  '@wix/ecom_checkout-templates@1.0.126':
+    resolution: {integrity: sha512-9m1Qan6K6bJNabzoWSfAEuK9JrS1tjQRNiOOT6wGOk0UiZC01R8uhQiLEIsdw8vULgsB7x7X/LnqsYtYCXbR/A==}
 
-  '@wix/ecom_checkout@1.0.128':
-    resolution: {integrity: sha512-EKIu5X2HZN8/vMlLbJImXOtp1dAeo/harhMTVFEBZjEPUbCbFPPg+2iLqpERVmF2xxgcMnRGMWFvcr7Dz66jfw==}
+  '@wix/ecom_checkout@1.0.129':
+    resolution: {integrity: sha512-7zj56hKMnbxY6tQOlm7txqyqlNCyMLaPifNaT+MOQhJO5Ro/vI0F6jrNSPHNcLhZ0tskWNbEyBbt5PFP2in+Rg==}
 
-  '@wix/ecom_currencies@1.0.55':
-    resolution: {integrity: sha512-2VwJGIRKSZ1kwIUxBqFvnK3n3ea/7JdSIv39gj3CN+/Kbxcvoo0/VaxmNoFz7oWURcoXZCGEWt3/2GxYpSAb/g==}
+  '@wix/ecom_currencies@1.0.56':
+    resolution: {integrity: sha512-VzfE9Uvx33LqAFyY/63pWzIC4e9fWXBQAUSnlFogiq8r+4DIdHUgNMfxsuLCwwmK7pPnXts+ogeM6OdKMDGQFQ==}
 
-  '@wix/ecom_current-cart@1.0.123':
-    resolution: {integrity: sha512-H558KShjNKdwZJSRcHPJ6Whqa+x3mdGO/0aY5gRiZdPD/DCpNEThRUBsu55hAWabA/URRI4wWmV3EdgJVPBjpg==}
+  '@wix/ecom_current-cart@1.0.124':
+    resolution: {integrity: sha512-d5IDos4/fhuumktrpbtzQufSaoTOzDcKFE6rBNhUjU3uFTPba4VXqiZVJ8hSyk9L4MHouNFTjVJsyQcQ79rnyg==}
 
-  '@wix/ecom_custom-triggers@1.0.41':
-    resolution: {integrity: sha512-Fu2F1sSk9rXbpVfnxFuhF1qrqr3fhU7HCHXayTkoMxoFbpbfnuIT41liOqRPCBvIFla4Zz6HmZkR8RsY963Yww==}
+  '@wix/ecom_custom-triggers@1.0.42':
+    resolution: {integrity: sha512-jf+e87ALGpwCRXsg6MfMOoQUp9KEsMKVmwKf1fiQ/1WtjuTOd8KAy7i9Hw5fuh07RR1X5GBuieUCcmsz/hAFQQ==}
 
-  '@wix/ecom_delivery-profile@1.0.48':
-    resolution: {integrity: sha512-BHI2ZTPrDzTmvB8Qw45aGTsE0ilnOAawyx4DZQ+nHWrIUQnmmGD+khoXD+PfQnU7DEGk0FpVl+0yd3cbsFx28w==}
+  '@wix/ecom_delivery-profile@1.0.49':
+    resolution: {integrity: sha512-w4lP8ci9zEwWviKHuAF4zdtz2Ae+xQSjUWTuw9tlujmbcwHqO6naby6fksFKb7kLTigIQoy55IDQddV6LU83uw==}
 
-  '@wix/ecom_delivery-solutions@1.0.24':
-    resolution: {integrity: sha512-xsLI44jOnCuDZG0wK6Tc06ASo7C1hjw0/6jeVrlHGuKk2zuWlSXbkM+WvnORf9zSJN5NZkvo/VELECYD5vjD+Q==}
+  '@wix/ecom_delivery-solutions@1.0.25':
+    resolution: {integrity: sha512-Wdgk8PwaP6S78dn2G4KSd22EZBAgUy9A8oAcwvj+Kvdsmb/sjO4B2iCdCYfa8gyVrWIKoF9KnFov0wZiDGKqUQ==}
 
-  '@wix/ecom_discount-rules@1.0.73':
-    resolution: {integrity: sha512-NV2U9e1kk6X9dVqpTYgG5Qq7zYqGX1K9fqtdialwIDjR6lcNwhw+jJM+2O2SrOE3HiBdL6MhlLf2V/ktti71fA==}
+  '@wix/ecom_discount-rules@1.0.74':
+    resolution: {integrity: sha512-/c43lLKMD0TRYVkXF7Ot57+ywd7uL5/OTIxW2ov+In15PI5+KOc6PUF/cjrjtEEieAtnkpVwZP1t4kXCGNqJ0g==}
 
-  '@wix/ecom_discounts-custom-trigger@1.0.27':
-    resolution: {integrity: sha512-FpWG055OmSVqbCy7icqC6bqJ8+jf9Xf91kv5eTQY8Arp0TOR2FXlo4YaYkuNNnDPkMw/6HF9qgAOX03FzrLrBQ==}
+  '@wix/ecom_discounts-custom-trigger@1.0.28':
+    resolution: {integrity: sha512-wsflyy/6+zQcxZnds9v1TS0VQNb++RbfPxq4D24CYUcaMB6SlGNxvTRC02br+dOExnlvTMTWbbL6QVTUp4cnfw==}
 
-  '@wix/ecom_discounts@1.0.24':
-    resolution: {integrity: sha512-49fcy0L3YlHu/9XNbb0WPyV1ooVvCCIzIPCfDNs5MyKCWFtjAdqNkjdCONvmkGD4okMpn7rDPXt1mW1qfTWMhQ==}
+  '@wix/ecom_discounts@1.0.25':
+    resolution: {integrity: sha512-Fc0UlwxdBlg2yguMHcGckxEu7ty1Ocg5Ed+AhYIwjTWaMJTObDz31aFF9dWTttK9kkfTu+XJZ7022hqmnxMtOQ==}
 
-  '@wix/ecom_draft-orders@1.0.61':
-    resolution: {integrity: sha512-QcH8KGgP/NQ3A1+AXRZJvv3Oxa9+j4pckZMzDitmMQ0mDCae1IlNlx9ubhqvz9YR7t40rIsmFYAtHuoePS37Ww==}
+  '@wix/ecom_draft-orders@1.0.62':
+    resolution: {integrity: sha512-zpJKrXOHGp1FX684DHa0zrXFOZ7AnVmm/EMzqxv4CAJ4D4nqezTr15459vDap+3ZuDR0A5tDhBBvb5VHfWsO8g==}
 
-  '@wix/ecom_gift-vouchers-provider@1.0.22':
-    resolution: {integrity: sha512-bLNGGsAscZJxOsnpyrCrlnva3AuKlqT9AKgtqcmcYIrFJz9iKszdIEA3Gqgyl32PpiUKEDRsd9FBrYgIEePCHQ==}
+  '@wix/ecom_gift-vouchers-provider@1.0.23':
+    resolution: {integrity: sha512-+CQSVIyPTO/dmZSpKVVMKMvgPCFLO6bzB2qjW3r7POZlVAWYMF7m2yOTtwUWY6S3mp3i/HResZlrN6lyKaMojw==}
 
-  '@wix/ecom_gift-vouchers@1.0.23':
-    resolution: {integrity: sha512-T2MIDzKhy/5jtcCjG9UhV8G9KjfcGnywtNgJHWqQbTq3Y8KpW4TfvGSCy4vc7xyVUFAn+FzRL2run+D8zoYsLA==}
+  '@wix/ecom_gift-vouchers@1.0.24':
+    resolution: {integrity: sha512-TT20tMOHT+kb12Z6UhlZ0pHiotx6ZNJOO+G8s5LhSvieE244udohyBlq9sWLP2wzqrZNLIhIILsPGZXa42Dhmg==}
 
-  '@wix/ecom_local-delivery-options@1.0.32':
-    resolution: {integrity: sha512-pCYR34JZVDTy3xrXRa5dSuhogW0NNBhXV3EdxKZ4Tb09hlIgxqeNyMIxn4/sO4/XdhoFxoZaTLazWhBQQAKJfQ==}
+  '@wix/ecom_local-delivery-options@1.0.33':
+    resolution: {integrity: sha512-IBI5TXvESGM89071zNEubK4OgnHwMS3xLMtHCcaw+TvVocfDWpZvvKhEfc4A5CSvMrwX9aP6oUtWeNDPIM24aA==}
 
-  '@wix/ecom_memberships@1.0.20':
-    resolution: {integrity: sha512-yz4X01hTzucRDBxOM03+6wcvbdxDOnkRUbDcV3g2RHqEZ7CE7JWbCKi8gtjhwQ8Vs9ak6z5AJjbmIZdVE5ICYQ==}
+  '@wix/ecom_memberships@1.0.21':
+    resolution: {integrity: sha512-lPwCfpb4EhcyjzxDx4dLnVODvN4yKHBcWJaeJVOpu8lKL2goFRpXqwTaA1EonBgwcd/NhUowIfgxxRISy6VDSg==}
 
-  '@wix/ecom_order-fulfillments@1.0.65':
-    resolution: {integrity: sha512-Utw2PppzOYjniOCWP6A5NHkgvDTeASyeO07RkX1WsX2UmkqSxFL2PO+dQIuBkyoyqkzftWwPFKK2AYOdBunhzg==}
+  '@wix/ecom_order-fulfillments@1.0.66':
+    resolution: {integrity: sha512-3DCQj4QVHTf6bakNpg9gaTVSonSTvfQ4zRlFwXi1Dgrz5hdzECcbCDIA7geAVe0u9fSyOWa8pqQuir0a2EZG7w==}
 
-  '@wix/ecom_order-invoices@1.0.58':
-    resolution: {integrity: sha512-WOJjcOvqn3HXEERSJal+zJjiKUgMNvqKSp9O9QDkT/HmtkGtws8MRxI9WtcHlT5HPAdson77okKP14i/JUNQjg==}
+  '@wix/ecom_order-invoices@1.0.59':
+    resolution: {integrity: sha512-SUxUC/dhFHZaYluN+vQEYzZsLdQKAXhwJqWMmgqd9zTcaiAljzX5JXeHpfpN3eISFKfdq21mNVklVfNEsCm99Q==}
 
-  '@wix/ecom_order-payment-requests@1.0.30':
-    resolution: {integrity: sha512-CIwPc5rxoki/FMZAulPU+lQNOIVExAJljEaxnBitiN0n3rfasUwOpmiuEpLng7pFB80CsqlsmWY+kIekH2creg==}
+  '@wix/ecom_order-payment-requests@1.0.31':
+    resolution: {integrity: sha512-zfmsxRtL+KQY+FJ5Xesf2I52a50QQHLJWAP1Me42lPYBdicd5BIgDPkoNgmiROT6El+am1UzoamZUX2UqoX/oA==}
 
-  '@wix/ecom_order-transactions@1.0.90':
-    resolution: {integrity: sha512-vtdd/K30Mo/mD/IiwR/+LNXiqXk4DFyok/dZIBT2LDB/FmaeaMYcHFVYiVBcB6pV//7Nwm16r5vV/kdqSZMBKw==}
+  '@wix/ecom_order-transactions@1.0.91':
+    resolution: {integrity: sha512-IJ3CrvBl251EOfrm8qlkdasqQ6Z7Bzo//x6pcdhnoF23MXo723Z+4SCg4i47y1czvOsYy3EQ9XRhaOLnxptd5g==}
 
-  '@wix/ecom_orders-settings@1.0.65':
-    resolution: {integrity: sha512-8GbKDCrD9XbCzNTo5pHWvWNn29PyaiUaBHU4MSIRIXSgYcFblaF/r7HpUebSt1CNn+xLkRmnJh/R6OY/esqqPw==}
+  '@wix/ecom_orders-settings@1.0.66':
+    resolution: {integrity: sha512-8LtPY10xNsMKETDEp1tv5cstwt27P4vDDGrS4bA5z1iODpoS62zT75ODO8bNTTIXxvMCxsUsW/MmO290JMlt5w==}
 
-  '@wix/ecom_orders@1.0.169':
-    resolution: {integrity: sha512-b8zvzF9RY+lhnfXAMufQg1tGjdVC6dRQiQyjNS5Qi5rP/2aPjQZmpe9FF87NIqctZeQM859xQ08w5xh8jA96lw==}
+  '@wix/ecom_orders@1.0.170':
+    resolution: {integrity: sha512-j9k9BkIG6GgNOtmNwxjtQlpY0taxMw8SVC4BFm8lfvsRkGob/hw5eU2lMceG+eTTBvC6zLz5QQJ8doUg4WQ1mQ==}
 
-  '@wix/ecom_payment-settings@1.0.95':
-    resolution: {integrity: sha512-Ejrx0QN9USTHgqT6W2HulfpBGVF84YT6+XtZ33DsOQoqfEkkd6G4XhX1YCx7W0Rfp5CV+lBERAmKab1xHMxOmA==}
+  '@wix/ecom_payment-settings@1.0.96':
+    resolution: {integrity: sha512-SPuTbSUkLIrrjcwuS+nxIhlsoIpeFEnVF/B66JGAebr07Jodiba8GECE37WmJ2Sxe9sHQMXL+Xccbi1HGJIhCw==}
 
-  '@wix/ecom_pickup-locations@1.0.28':
-    resolution: {integrity: sha512-FTRFQHgDbyRD9And5WhtOracKEUZWZBIV6IiaKcIdf6B2ci0MHtXp7AyKJp4y60BMIv5jeHf8OLR0+Mbx5J53w==}
+  '@wix/ecom_pickup-locations@1.0.29':
+    resolution: {integrity: sha512-sclsepJNsapxP3CwzHbVvHaNtmMMNQ1hPIzIoiYjnGnP1i/vz+joqJJ/8mGNy+feZU44WwNc04+LjOAn+bm9DQ==}
 
-  '@wix/ecom_recommendations-provider@1.0.22':
-    resolution: {integrity: sha512-jwab0CXXrzclFn+Emn4tg4An2SaNgWbrFpOGCfM02NuUO4DeUR237+UlTYDLGYyMjfOq5dhPISC+E2v70BW5sg==}
+  '@wix/ecom_recommendations-provider@1.0.23':
+    resolution: {integrity: sha512-dNAX/+01pOgTYdcSfGJcscJG50j56Kk/hTJQBfJBYcQDtKWqqh2dAH8zWz6XIeLChb3M8ibvP4gvTXKPlRysMA==}
 
-  '@wix/ecom_recommendations@1.0.62':
-    resolution: {integrity: sha512-NN5XEL0ky7GuMs5Rd3XoCyKmJkN1f/Fiy7Ro5/I89swMC4/RNkdeWzJoz5xGRKmTV7YlmLYo8/KKrCGlTSquBQ==}
+  '@wix/ecom_recommendations@1.0.63':
+    resolution: {integrity: sha512-iXArgfhR1MjhADka3M18aNbWktc867zJs4WXgw/N+jJ9KOBYdRDK8XfdwNA8lWrhGP59PzotgwhCs0glv6eE+w==}
 
-  '@wix/ecom_shipping-options@1.0.26':
-    resolution: {integrity: sha512-MgPYDyadIcfjmH7HwDCPOkqe614dD11clxA7Ddk/z9uoXYa6z+LO5Cz50B1KHuPX+NgIP30EmCYhKCKgKb2Ekw==}
+  '@wix/ecom_shipping-options@1.0.27':
+    resolution: {integrity: sha512-PIkNQhbtA+uJf6FGvStWl2k8ETQFJzOPoU4xKOLaGiI57pLRDSEkA3CA3g/IvYXSwarLGTrTF4OWllK3HEluzw==}
 
-  '@wix/ecom_shipping-rates@1.0.64':
-    resolution: {integrity: sha512-fWyRjqUSMDUduQMvKMF14tvk06cQ5lsPaPRgMqMHnp+zI+9gfc/Zk1bw/6kaKroGJmpeCYmJSnGCLNWrAWzJ+g==}
+  '@wix/ecom_shipping-rates@1.0.65':
+    resolution: {integrity: sha512-yS/SHYGMBfqljAwP8DSC46zqbRfqOXPKQSOM9i8rm9j5w9vSwV37Dgj/tLTtkGhc17iRpPvkty1jhQ2G8DtB9A==}
 
-  '@wix/ecom_shippo-configurations@1.0.34':
-    resolution: {integrity: sha512-K4ILMH+ynxcQCYmYjIGH39/+qSUkA7q0Nn5Lgt1t9UixZ4y1okW0kaW4l07sNwESc3qlxJiMg+HKsry1hIeUbA==}
+  '@wix/ecom_shippo-configurations@1.0.35':
+    resolution: {integrity: sha512-kpw396Kkl5L4xGSHZPue+kCHqi8LFgb6sCqUT2xm4XLDYIsUWGJtGuROSi2KwcRJlEnAvztg6zAQgkxPUpuLaw==}
 
-  '@wix/ecom_subscription-contracts@1.0.24':
-    resolution: {integrity: sha512-S9zkOnfhbrwg7mFYOlpYoKQFOgBjTiWbOhKzyTFinpN2SFSTbJSWGXDnauMYfq0kvTCxEJx9zjXvdb+HR6PYCA==}
+  '@wix/ecom_subscription-contracts@1.0.25':
+    resolution: {integrity: sha512-/uv+hs3GkvfHMcb9KhCGLOcr3StU8iy0Kj0yZLCebvX5guBoavIi6klJOHR34nkrh3++h0zQYnPbBAdN7M0qIA==}
 
-  '@wix/ecom_tip-settings@1.0.14':
-    resolution: {integrity: sha512-mltuJx4VQ8felmKTNGvtOhTN+rxBCWSrZfPkMg8VRhG56aJfc831uL4r+HCR1lZ6ZFDz18pK+6nt8+5Pq/aHlQ==}
+  '@wix/ecom_tip-settings@1.0.15':
+    resolution: {integrity: sha512-xXKGqpLyx4VdJdkNpv362FcsR/wnnCM5ria8tOO3vz05PAkzPLjOumo8zWKPOu9wYBmdIsPj399RdR5XGf8IwA==}
 
-  '@wix/ecom_tippable-staff@1.0.14':
-    resolution: {integrity: sha512-lhb999gLfw18LG86NxKj7kMP7wgmE0NmX4bFAW+yKVSjADMCm4M3FGJVNQefY0eXiih/KVSFCoClxOJci/lp4A==}
+  '@wix/ecom_tippable-staff@1.0.15':
+    resolution: {integrity: sha512-8blR3y/oA/w0ZCGk6Hwkjc0wnTNYozvqBDhb/7EUB22f0XPy8CkbwDMv8Bmx1a1K19zebb/CLdVTp6IzHMzM5A==}
 
-  '@wix/ecom_tips@1.0.18':
-    resolution: {integrity: sha512-OKgs/tEP3BGDvC+QZObipOSI6Dv9lIGg9BzUL1lF67J8j2gZ0CFLJqrPv3nUqGSyshuvRjJuc1QanRT4pOr+8A==}
+  '@wix/ecom_tips@1.0.19':
+    resolution: {integrity: sha512-FUzk9sMgW/cmywYnX50B+s8uOnvpwxr0EEDaNmWSs0+M/a7KJD931u/CVDov8X5txU20PsmP20Ff4NOgdEWEMQ==}
 
-  '@wix/ecom_totals-calculator@1.0.36':
-    resolution: {integrity: sha512-sCaxquD15iDjbyRlINns0hlY7kmsq25CIdLw8AkYf4b70Nk1wi2HXe7G6ygWkLBhefijcGchiB6uhn4rbmEb6g==}
+  '@wix/ecom_totals-calculator@1.0.37':
+    resolution: {integrity: sha512-S5pbCdU3UoJlbHJWwkE60i3/cRf9mUphhjJjTyJaVz7mFhN3md7lrL2nVn5CVuonubmB/AzOuoa41BYkRaSGdQ==}
 
-  '@wix/ecom_validations@1.0.58':
-    resolution: {integrity: sha512-uPLZSgZzleyMNPdfrLwCXK+0V5Nb4r0g5lgK+toOT+x4l1OGNdTZh9tW8l4OMORTUj50MESJrIUySvMwsUYaMQ==}
+  '@wix/ecom_validations@1.0.59':
+    resolution: {integrity: sha512-B6DMcWVvI7Sg+6hlmM6K7ud0NuGWwOZ9kI8pgpIu913gEfRttTOEjTQ7l2sMdJEkej3HpC95dkIwtZn5UurZew==}
 
   '@wix/identity@1.0.100':
     resolution: {integrity: sha512-TqpSxTzqYTMD2YAGsKal08gD3J8XUwXeAh0A0l0rnlY/Fgi6dv0dqCGExnNJxJu+fIX4uMbzI1gOIr+Cx0H0KQ==}
@@ -692,47 +692,47 @@ packages:
   '@wix/sdk@1.15.7':
     resolution: {integrity: sha512-XAb00DJ4bQwLi3H9Xzo6EacRXVv+4LorABeSxYWzbtZPOxHUIOFrbb1djIDR9hZ7kDIBowo7psbm4NFZr7jezw==}
 
-  '@wix/stores@1.0.333':
-    resolution: {integrity: sha512-pnKBXvrnlUJhjdYjHVyrUj3uFXH44prLXOir1QmNRSM8tqn7zejmLHEUMuGyhDAYljpOywmF9iNFBLzW/NQZ6A==}
+  '@wix/stores@1.0.335':
+    resolution: {integrity: sha512-DWXpx9z0fgvVLlshjP4aWRl1HkBy2/0fSKVb2bgXRDx5/GaGsYpnSS9d68wh7XNIlhfjG75e8xxOMLHXcDchdw==}
 
-  '@wix/stores_brands-v-3@1.0.37':
-    resolution: {integrity: sha512-RZTQJvrXu0QcQN/194ErCS/eSDaxKAeVwobX0z4kiBkQs+uK2vMtlUg4o5hHpS/BFHqCIo4JMD7pyhTvEtcy2Q==}
+  '@wix/stores_brands-v-3@1.0.38':
+    resolution: {integrity: sha512-kM9+VcuzQy4qJxAjtjorDQVWkurCugWfvReXSj5xWwaaaws3JJ30J/6kTiQsiqpW5D4Xb/i8X9dbgaOb31AvMA==}
 
-  '@wix/stores_catalog-versioning@1.0.24':
-    resolution: {integrity: sha512-3KLEc3cS+OKznYpCgEq9Ao+2JKfXrjeH1YC/UjyyPZWN4yBLOIDmsERI/dm++8s2v/RwmztKDPDUaIPG5TGEiA==}
+  '@wix/stores_catalog-versioning@1.0.26':
+    resolution: {integrity: sha512-xDZyymozKL+n9qKZhb/Vh7mNHU4osfjQzfQp0hFXo5sRERjnb8o/FjBoUGrg+1xY3pkuyYGgOEnhCxtGthfp+g==}
 
-  '@wix/stores_collections@1.0.58':
-    resolution: {integrity: sha512-/qujNRthZeVb3dWptIDPPSQg67WGgJiZ4LcfCXPCT1QD8DtMwvVL0ZMa43WyaKrQCKQdwqycP32m7oniYAjvQg==}
+  '@wix/stores_collections@1.0.59':
+    resolution: {integrity: sha512-B2Lmn1TwsIy/43R53kzQgGE9CySdM1q1gYLgX1GwKx89gEp+N6TNdrSOwxPAVwSEiaqYDBuIrVxvMr9Yk9UtrA==}
 
-  '@wix/stores_customizations-v-3@1.0.39':
-    resolution: {integrity: sha512-s3sNWfYgq7Uspqr2ujhDE6w9Bg63HJVmXt4pmSK8ruUvxgEcaIdv5zM0pr4lMgZCAh40XLiVSNDhOBLcrIYaGA==}
+  '@wix/stores_customizations-v-3@1.0.40':
+    resolution: {integrity: sha512-RRspL4T3MRtauupTO8AyQIPZEYKLNtJ7jhI0dZyunuGplCbwij9ISdCqZbL8WCZjVUGJyu/RHIeKlYqER5yEOg==}
 
-  '@wix/stores_info-sections-v-3@1.0.38':
-    resolution: {integrity: sha512-osN4/6AcvucNwwCz6UtYhtxcxlXI8BRYUYhBdueMZTUtLN7ruLLAWw4IBuiVkX7XomI71bboiUTYGZtr/rZLJg==}
+  '@wix/stores_info-sections-v-3@1.0.39':
+    resolution: {integrity: sha512-s0jQrh2tJ0EiybQBSyJOqWUYWTIBjKr1U4+4WXZv9GqQZrV1vA39R/MiDTBW5UnQLH/dnQmaUwzRIVkZpGPvQw==}
 
-  '@wix/stores_inventory-items-v-3@1.0.49':
-    resolution: {integrity: sha512-+ktNfGhhnj525S8rjLUkFGe+5s/VHIITQn3AifkHj+Dju4/mQGykqCjBkT6vlRvZJujx/mmpm7aTrGd0/DFSuA==}
+  '@wix/stores_inventory-items-v-3@1.0.50':
+    resolution: {integrity: sha512-s5kBXuP4plAIYeWa9lAiFUYfcqIV5B9NTC2jdM6GMuoVvpjw1H5NM3e3uD07hbUEwlCHFPia+fv5Al5Y+GwEAg==}
 
-  '@wix/stores_inventory@1.0.75':
-    resolution: {integrity: sha512-eB93weKqq0KtR46Rgy2F4IROBmdWZbYk877uHSV9vPmU3odTPQE4NBFRmBoo+YohWg2UaAuPdCZH7sna24OC/Q==}
+  '@wix/stores_inventory@1.0.77':
+    resolution: {integrity: sha512-6YbXcf9dyNTwjjz68BR6il9jzACLo1MvACRowJvY1pB5dblzSGqUlr4PxlNWuQsj0MIldD8TaZzooAUXl0LNIA==}
 
-  '@wix/stores_products-v-3@1.0.95':
-    resolution: {integrity: sha512-/aqsFQLif3B+o6LOIvRjrY4x3swus/VzVn2f4mj2MJa/id7Tnr3A5FbSiyTrQOkAdLhOJnt6N/nNLSdTbV5jQA==}
+  '@wix/stores_products-v-3@1.0.97':
+    resolution: {integrity: sha512-/RWIK/MAuMOxRxCCajqgnSHc5ibsQKe4XKd/kfQoIJu55171gJnGhcQIK7zqN47E0VAxCwtpEfREpibD8R3LaA==}
 
-  '@wix/stores_products@1.0.101':
-    resolution: {integrity: sha512-Deflbqq+XqrRbBHNNBQjKsmLWBLxqlAZwIVmwWNZ90Doe8pxWbLZx1zvFZQG3n4WWsvuXXlrpTB+uyzyHf3DQw==}
+  '@wix/stores_products@1.0.102':
+    resolution: {integrity: sha512-TIlmEPdvr2Wt6Hco8uS9WamZVGS2y8iO+XxbKh+y/M4EJ7txW7+r87cimwpBlDhmYiViKApQY889S/Qjv+vnVA==}
 
-  '@wix/stores_ribbons-v-3@1.0.33':
-    resolution: {integrity: sha512-vESN7MLMMAxyP6A6LR1qRbxkDIb3u3653DHqgxiI2syM9mpmwwOfsGglqjqf/Sg2X+IsDaDC97MHG3vv+3sCKA==}
+  '@wix/stores_ribbons-v-3@1.0.35':
+    resolution: {integrity: sha512-KH2QmJOXPI2ryjqubzZSpGC+0KwftqlT77CcRvDEe9Q0PkB06wNkCNQaYfgfaiMbX/IrqgWMX42eG0uRR/RaKw==}
 
-  '@wix/stores_stores-locations-v-3@1.0.39':
-    resolution: {integrity: sha512-GEt6uI6uXkc6u1kYVrb43fm/nKeVSzn+I+3sx5BFjcSwuoyX/Hiz0vKcxup5ulJAT/tKLW4QrLThD/PWrx0GmA==}
+  '@wix/stores_stores-locations-v-3@1.0.41':
+    resolution: {integrity: sha512-oVH4AHtWh+v+rX2zge8omw7eFjfNvFGxOuZwD5x2tsXxMtp77tdxHtu6oa6jcTA+sY1QwV26IlN05+sdlNRWiA==}
 
-  '@wix/stores_subscription-options@1.0.57':
-    resolution: {integrity: sha512-Xt+6mZ8fiXDJlOM+SGBvjN+vMBLRZmkhOjp1gJrHkLpmILAdv1l/h81udLhdPIf4k4eeDvYGKJpHFi7PvizRZw==}
+  '@wix/stores_subscription-options@1.0.59':
+    resolution: {integrity: sha512-2s88M8+ld9K4kaNwMVGZ6a0BoL20w6AnVrnNu50nmnWL7gYyuJs84m6frk2bEHmT6RyCivkCmiIExXHAiK+0Zw==}
 
-  '@wix/stores_wishlist@1.0.50':
-    resolution: {integrity: sha512-vNjxgAt2r/LOk6SUEyv8UO406OSjy1LTha2F8Tf4dUT0uHUMLcPFnmzwOiKPfcoqt9rmpiwZIA5dRiWZNFr7iA==}
+  '@wix/stores_wishlist@1.0.51':
+    resolution: {integrity: sha512-dXIslMT+8HK4zd3PLNyA5BEdHKTxBrqpIBTvj/gPS3UiZypIHVRZD3vpVjCDyRtwh913nbgB2VXYzb1hKrBSjg==}
 
   ansi-regex@5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
@@ -1804,257 +1804,257 @@ snapshots:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom@1.0.880':
+  '@wix/ecom@1.0.881':
     dependencies:
-      '@wix/ecom_abandoned-checkouts': 1.0.66
-      '@wix/ecom_additional-fees': 1.0.47
-      '@wix/ecom_back-in-stock-notifications': 1.0.72
-      '@wix/ecom_back-in-stock-settings': 1.0.54
-      '@wix/ecom_cart': 1.0.123
-      '@wix/ecom_catalog': 1.0.10
-      '@wix/ecom_checkout': 1.0.128
-      '@wix/ecom_checkout-content': 1.0.25
-      '@wix/ecom_checkout-settings': 1.0.71
-      '@wix/ecom_checkout-templates': 1.0.125
-      '@wix/ecom_currencies': 1.0.55
-      '@wix/ecom_current-cart': 1.0.123
-      '@wix/ecom_custom-triggers': 1.0.41
-      '@wix/ecom_delivery-profile': 1.0.48
-      '@wix/ecom_delivery-solutions': 1.0.24
-      '@wix/ecom_discount-rules': 1.0.73
-      '@wix/ecom_discounts': 1.0.24
-      '@wix/ecom_discounts-custom-trigger': 1.0.27
-      '@wix/ecom_draft-orders': 1.0.61
-      '@wix/ecom_gift-vouchers': 1.0.23
-      '@wix/ecom_gift-vouchers-provider': 1.0.22
-      '@wix/ecom_local-delivery-options': 1.0.32
-      '@wix/ecom_memberships': 1.0.20
-      '@wix/ecom_order-fulfillments': 1.0.65
-      '@wix/ecom_order-invoices': 1.0.58
-      '@wix/ecom_order-payment-requests': 1.0.30
-      '@wix/ecom_order-transactions': 1.0.90
-      '@wix/ecom_orders': 1.0.169
-      '@wix/ecom_orders-settings': 1.0.65
-      '@wix/ecom_payment-settings': 1.0.95
-      '@wix/ecom_pickup-locations': 1.0.28
-      '@wix/ecom_recommendations': 1.0.62
-      '@wix/ecom_recommendations-provider': 1.0.22
-      '@wix/ecom_shipping-options': 1.0.26
-      '@wix/ecom_shipping-rates': 1.0.64
-      '@wix/ecom_shippo-configurations': 1.0.34
-      '@wix/ecom_subscription-contracts': 1.0.24
-      '@wix/ecom_tip-settings': 1.0.14
-      '@wix/ecom_tippable-staff': 1.0.14
-      '@wix/ecom_tips': 1.0.18
-      '@wix/ecom_totals-calculator': 1.0.36
-      '@wix/ecom_validations': 1.0.58
+      '@wix/ecom_abandoned-checkouts': 1.0.67
+      '@wix/ecom_additional-fees': 1.0.48
+      '@wix/ecom_back-in-stock-notifications': 1.0.73
+      '@wix/ecom_back-in-stock-settings': 1.0.55
+      '@wix/ecom_cart': 1.0.124
+      '@wix/ecom_catalog': 1.0.11
+      '@wix/ecom_checkout': 1.0.129
+      '@wix/ecom_checkout-content': 1.0.26
+      '@wix/ecom_checkout-settings': 1.0.72
+      '@wix/ecom_checkout-templates': 1.0.126
+      '@wix/ecom_currencies': 1.0.56
+      '@wix/ecom_current-cart': 1.0.124
+      '@wix/ecom_custom-triggers': 1.0.42
+      '@wix/ecom_delivery-profile': 1.0.49
+      '@wix/ecom_delivery-solutions': 1.0.25
+      '@wix/ecom_discount-rules': 1.0.74
+      '@wix/ecom_discounts': 1.0.25
+      '@wix/ecom_discounts-custom-trigger': 1.0.28
+      '@wix/ecom_draft-orders': 1.0.62
+      '@wix/ecom_gift-vouchers': 1.0.24
+      '@wix/ecom_gift-vouchers-provider': 1.0.23
+      '@wix/ecom_local-delivery-options': 1.0.33
+      '@wix/ecom_memberships': 1.0.21
+      '@wix/ecom_order-fulfillments': 1.0.66
+      '@wix/ecom_order-invoices': 1.0.59
+      '@wix/ecom_order-payment-requests': 1.0.31
+      '@wix/ecom_order-transactions': 1.0.91
+      '@wix/ecom_orders': 1.0.170
+      '@wix/ecom_orders-settings': 1.0.66
+      '@wix/ecom_payment-settings': 1.0.96
+      '@wix/ecom_pickup-locations': 1.0.29
+      '@wix/ecom_recommendations': 1.0.63
+      '@wix/ecom_recommendations-provider': 1.0.23
+      '@wix/ecom_shipping-options': 1.0.27
+      '@wix/ecom_shipping-rates': 1.0.65
+      '@wix/ecom_shippo-configurations': 1.0.35
+      '@wix/ecom_subscription-contracts': 1.0.25
+      '@wix/ecom_tip-settings': 1.0.15
+      '@wix/ecom_tippable-staff': 1.0.15
+      '@wix/ecom_tips': 1.0.19
+      '@wix/ecom_totals-calculator': 1.0.37
+      '@wix/ecom_validations': 1.0.59
 
-  '@wix/ecom_abandoned-checkouts@1.0.66':
-    dependencies:
-      '@wix/sdk-runtime': 0.3.28
-      '@wix/sdk-types': 1.12.8
-
-  '@wix/ecom_additional-fees@1.0.47':
+  '@wix/ecom_abandoned-checkouts@1.0.67':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_back-in-stock-notifications@1.0.72':
+  '@wix/ecom_additional-fees@1.0.48':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_back-in-stock-settings@1.0.54':
+  '@wix/ecom_back-in-stock-notifications@1.0.73':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_cart@1.0.123':
+  '@wix/ecom_back-in-stock-settings@1.0.55':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_catalog@1.0.10':
+  '@wix/ecom_cart@1.0.124':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_checkout-content@1.0.25':
+  '@wix/ecom_catalog@1.0.11':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_checkout-settings@1.0.71':
+  '@wix/ecom_checkout-content@1.0.26':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_checkout-templates@1.0.125':
+  '@wix/ecom_checkout-settings@1.0.72':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_checkout@1.0.128':
+  '@wix/ecom_checkout-templates@1.0.126':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_currencies@1.0.55':
+  '@wix/ecom_checkout@1.0.129':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_current-cart@1.0.123':
+  '@wix/ecom_currencies@1.0.56':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_custom-triggers@1.0.41':
+  '@wix/ecom_current-cart@1.0.124':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_delivery-profile@1.0.48':
+  '@wix/ecom_custom-triggers@1.0.42':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_delivery-solutions@1.0.24':
+  '@wix/ecom_delivery-profile@1.0.49':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_discount-rules@1.0.73':
+  '@wix/ecom_delivery-solutions@1.0.25':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_discounts-custom-trigger@1.0.27':
+  '@wix/ecom_discount-rules@1.0.74':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_discounts@1.0.24':
+  '@wix/ecom_discounts-custom-trigger@1.0.28':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_draft-orders@1.0.61':
+  '@wix/ecom_discounts@1.0.25':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_gift-vouchers-provider@1.0.22':
+  '@wix/ecom_draft-orders@1.0.62':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_gift-vouchers@1.0.23':
+  '@wix/ecom_gift-vouchers-provider@1.0.23':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_local-delivery-options@1.0.32':
+  '@wix/ecom_gift-vouchers@1.0.24':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_memberships@1.0.20':
+  '@wix/ecom_local-delivery-options@1.0.33':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_order-fulfillments@1.0.65':
+  '@wix/ecom_memberships@1.0.21':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_order-invoices@1.0.58':
+  '@wix/ecom_order-fulfillments@1.0.66':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_order-payment-requests@1.0.30':
+  '@wix/ecom_order-invoices@1.0.59':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_order-transactions@1.0.90':
+  '@wix/ecom_order-payment-requests@1.0.31':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_orders-settings@1.0.65':
+  '@wix/ecom_order-transactions@1.0.91':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_orders@1.0.169':
+  '@wix/ecom_orders-settings@1.0.66':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_payment-settings@1.0.95':
+  '@wix/ecom_orders@1.0.170':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_pickup-locations@1.0.28':
+  '@wix/ecom_payment-settings@1.0.96':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_recommendations-provider@1.0.22':
+  '@wix/ecom_pickup-locations@1.0.29':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_recommendations@1.0.62':
+  '@wix/ecom_recommendations-provider@1.0.23':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_shipping-options@1.0.26':
+  '@wix/ecom_recommendations@1.0.63':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_shipping-rates@1.0.64':
+  '@wix/ecom_shipping-options@1.0.27':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_shippo-configurations@1.0.34':
+  '@wix/ecom_shipping-rates@1.0.65':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_subscription-contracts@1.0.24':
+  '@wix/ecom_shippo-configurations@1.0.35':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_tip-settings@1.0.14':
+  '@wix/ecom_subscription-contracts@1.0.25':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_tippable-staff@1.0.14':
+  '@wix/ecom_tip-settings@1.0.15':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_tips@1.0.18':
+  '@wix/ecom_tippable-staff@1.0.15':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_totals-calculator@1.0.36':
+  '@wix/ecom_tips@1.0.19':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/ecom_validations@1.0.58':
+  '@wix/ecom_totals-calculator@1.0.37':
+    dependencies:
+      '@wix/sdk-runtime': 0.3.28
+      '@wix/sdk-types': 1.12.8
+
+  '@wix/ecom_validations@1.0.59':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
@@ -2132,83 +2132,83 @@ snapshots:
     optionalDependencies:
       graphql: 16.10.0
 
-  '@wix/stores@1.0.333':
+  '@wix/stores@1.0.335':
     dependencies:
-      '@wix/stores_brands-v-3': 1.0.37
-      '@wix/stores_catalog-versioning': 1.0.24
-      '@wix/stores_collections': 1.0.58
-      '@wix/stores_customizations-v-3': 1.0.39
-      '@wix/stores_info-sections-v-3': 1.0.38
-      '@wix/stores_inventory': 1.0.75
-      '@wix/stores_inventory-items-v-3': 1.0.49
-      '@wix/stores_products': 1.0.101
-      '@wix/stores_products-v-3': 1.0.95
-      '@wix/stores_ribbons-v-3': 1.0.33
-      '@wix/stores_stores-locations-v-3': 1.0.39
-      '@wix/stores_subscription-options': 1.0.57
-      '@wix/stores_wishlist': 1.0.50
+      '@wix/stores_brands-v-3': 1.0.38
+      '@wix/stores_catalog-versioning': 1.0.26
+      '@wix/stores_collections': 1.0.59
+      '@wix/stores_customizations-v-3': 1.0.40
+      '@wix/stores_info-sections-v-3': 1.0.39
+      '@wix/stores_inventory': 1.0.77
+      '@wix/stores_inventory-items-v-3': 1.0.50
+      '@wix/stores_products': 1.0.102
+      '@wix/stores_products-v-3': 1.0.97
+      '@wix/stores_ribbons-v-3': 1.0.35
+      '@wix/stores_stores-locations-v-3': 1.0.41
+      '@wix/stores_subscription-options': 1.0.59
+      '@wix/stores_wishlist': 1.0.51
 
-  '@wix/stores_brands-v-3@1.0.37':
-    dependencies:
-      '@wix/sdk-runtime': 0.3.28
-      '@wix/sdk-types': 1.12.8
-
-  '@wix/stores_catalog-versioning@1.0.24':
+  '@wix/stores_brands-v-3@1.0.38':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/stores_collections@1.0.58':
+  '@wix/stores_catalog-versioning@1.0.26':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/stores_customizations-v-3@1.0.39':
+  '@wix/stores_collections@1.0.59':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/stores_info-sections-v-3@1.0.38':
+  '@wix/stores_customizations-v-3@1.0.40':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/stores_inventory-items-v-3@1.0.49':
+  '@wix/stores_info-sections-v-3@1.0.39':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/stores_inventory@1.0.75':
+  '@wix/stores_inventory-items-v-3@1.0.50':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/stores_products-v-3@1.0.95':
+  '@wix/stores_inventory@1.0.77':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/stores_products@1.0.101':
+  '@wix/stores_products-v-3@1.0.97':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/stores_ribbons-v-3@1.0.33':
+  '@wix/stores_products@1.0.102':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/stores_stores-locations-v-3@1.0.39':
+  '@wix/stores_ribbons-v-3@1.0.35':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/stores_subscription-options@1.0.57':
+  '@wix/stores_stores-locations-v-3@1.0.41':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
 
-  '@wix/stores_wishlist@1.0.50':
+  '@wix/stores_subscription-options@1.0.59':
+    dependencies:
+      '@wix/sdk-runtime': 0.3.28
+      '@wix/sdk-types': 1.12.8
+
+  '@wix/stores_wishlist@1.0.51':
     dependencies:
       '@wix/sdk-runtime': 0.3.28
       '@wix/sdk-types': 1.12.8
