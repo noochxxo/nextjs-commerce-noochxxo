@@ -7,12 +7,12 @@
 import { getPost } from "@/lib/wix";
 
 
+type Params = Promise<{ slug: string }> 
 
-
-export default async function BlogPost({ params }: { params: { slug: string } }) {
-  const post = (await getPost(params.slug));
-  console.log(post
-  );
+export default async function BlogPost({ params }: { params: Params }) {
+  const { slug } = await params; 
+  const post = (await getPost(slug));
+  // console.log(post);
 
   
   return (
