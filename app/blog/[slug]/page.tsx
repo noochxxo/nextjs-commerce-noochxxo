@@ -1,54 +1,49 @@
-import { getPosts } from "@/lib/wix";
+// import fs from 'fs'
+// import path from 'path'
+// import matter from 'gray-matter'
+// import { MDXRemote } from 'next-mdx-remote/rsc'
+// import { MDXComponents } from 'mdx/types'
 
-type Props = {}
+import { getPost } from "@/lib/wix";
 
-const page = async  (props: Props) => {
-  const posts = await getPosts();
-  console.log(posts);
+
+
+
+export default async function BlogPost({ params }: { params: { slug: string } }) {
+  const post = (await getPost(params.slug));
+  console.log(post
+  );
+
+  
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold text-foreground mb-8">Blog</h1>
-      <div className="grid gap-8 md:grid-cols-2">
-        {/* <Suspense fallback={<div>Loading...</div>}>
-        {posts.map((post) => (
-          <Link href={`/blog/${post.slug}`} key={post.slug} className="block">
-            <div className="border border-muted rounded-lg overflow-hidden transition-shadow hover:shadow-lg bg-card">
-              <div className="relative h-48">
-                <Image
-                  src={post.frontmatter.coverImage || '/placeholder.svg'}
-                  alt={post.frontmatter.title}
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-4">
-                <h2 className="text-xl font-semibold text-foreground mb-2">{post.frontmatter.title}</h2>
-                <p className="text-muted-foreground mb-4">{post.frontmatter.excerpt}</p>
-                <div className="flex items-center">
-                  <Image
-                    src={post.frontmatter.author.picture || '/placeholder.svg'}
-                    alt={post.frontmatter.author.name}
-                    width={40}
-                    height={40}
-                    className="rounded-full mr-2"
-                  />
-                  <div>
-                    <p className="text-sm font-medium text-foreground">{post.frontmatter.author.name}</p>
-                    <p className="text-sm text-muted-foreground">
-                      {new Date(post.frontmatter.date).toLocaleDateString()}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Link>
-        ))}
-        
-        
-        </Suspense> */}
-      </div>
+      <article className="prose prose-invert prose-lg mx-auto">
+        <h1 className="text-3xl font-bold text-foreground mb-4">{post?.title}</h1>
+        <div className="flex items-center mb-8">
+          {/* <Image
+            src={frontmatter.author.picture || '/placeholder.svg'}
+            alt={frontmatter.author.name}
+            width={40}
+            height={40}
+            className="rounded-full mr-2"
+          /> */}
+          <div>
+            <p className="text-sm font-medium text-foreground">{'Noochxxo'}</p>
+            <p className="text-sm text-muted-foreground">
+              {post?.firstPublishedDate ? new Date(post?.firstPublishedDate).toLocaleDateString() : 'Unknown date'}
+            </p>
+          </div>
+        </div>
+        <div className="relative h-64 mb-8">
+          {/* <Image
+            src={frontmatter.coverImage || '/placeholder.svg'}
+            alt={frontmatter.title}
+            fill
+            className="object-cover rounded-lg"
+          /> */}
+        </div>
+      </article>
     </div>
   )
 }
 
-export default page

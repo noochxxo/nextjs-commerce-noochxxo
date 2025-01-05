@@ -1,13 +1,14 @@
+import { posts } from "@wix/blog";
 import { items } from '@wix/data';
 import { currentCart, recommendations } from '@wix/ecom';
-
-import { posts } from "@wix/blog";
 import { redirects } from '@wix/redirects';
 import { createClient, media, OAuthStrategy } from '@wix/sdk';
 import { collections, products } from '@wix/stores';
 import { SortKey, WIX_SESSION_COOKIE } from 'lib/constants';
 import { cookies } from 'next/headers';
 import { Cart, Collection, Menu, Page, Post, Product, ProductVariant } from './types';
+
+
 
 const cartesian = <T>(data: T[][]) =>
   data.reduce((a, b) => a.flatMap((d) => b.map((e) => [...d, e])), [[]] as T[][]);
@@ -558,5 +559,15 @@ export async function createCheckoutUrl(postFlowUrl: string) {
 export async function getPosts() {
   const { queryPosts } = (await getWixClient()).use(posts);
   const { items } = await queryPosts().find();
-  console.log(items[0]?.heroImage);
+  return items;
+}
+
+export async function getPost(slug: string) {
+  const options = {
+    fieldsets: [ 'SEO', 'URL', 'RICH_CONTENT', 'CONTENT'] // Specify the fields you want to include
+  } ;
+  const { getPostBySlug } = (await getWixClient()).use(posts);
+  // @ts-ignore
+  const post = await getPostBySlug(slug, options );
+  return post.post;
 }

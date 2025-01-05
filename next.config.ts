@@ -1,3 +1,4 @@
+
 export default {
   images: {
     formats: ['image/avif', 'image/webp'],
@@ -7,5 +8,5 @@ export default {
         hostname: 'static.wixstatic.com'
       }
     ]
-  }
+  },
 };
